@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #222;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 500px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>👋 Hello, I’m [Your Name]!</h1>
+    <p>Welcome to my very first website hosted for free on <strong>GitHub Pages</strong>.</p>
+    <p>I’m learning how to code and build websites step by step.</p>
+    <a class="button" href="https://github.com/yourusername" target="_blank">Visit my GitHub</a>
+  </div>
+</body>
+</html>
